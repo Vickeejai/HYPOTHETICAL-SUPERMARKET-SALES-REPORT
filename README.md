@@ -11,7 +11,9 @@
 
 ### Project Overview
 
-The dataset from January to March 2019 shows sales transactions across various product categories, customer demographics, and locations for a hypothetical supermarket. The data analysis project seeks to review the financial performance of the supermarket while uncovering insights to increase profitability
+The dataset from January to March 2019 shows sales transactions across various product categories, customer demographics, and locations for a hypothetical supermarket. The data analysis project seeks to review the financial performance of the supermarket while uncovering insights to increase profitability.
+
+![Screenshot 2024-06-02 154855](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/b3ffb5f5-b278-410a-857b-9297bcab907a)
 
 ### Data Sources
 
