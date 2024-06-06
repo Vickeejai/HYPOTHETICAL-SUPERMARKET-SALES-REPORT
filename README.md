@@ -89,23 +89,30 @@ Exploratory Data Analysis involved exploring the sales data to answer some key q
 5. **Based on Customer Stisfaction:**
    - Female customers with no membership status gave Sports and Travel the least rating while those with membership status gave Food and Beverages the least rating.
   
-![Screenshot 2024-05-30 000614](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/93eedc38-7d3c-44e1-8820-817d2112519c) 
+![Screenshot 2024-05-30 000614](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/93eedc38-7d3c-44e1-8820-817d2112519c) Non Members
 
-![Screenshot 2024-05-30 000634](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/229a89ca-bd66-4878-b1bf-b05426d01f67)
+![Screenshot 2024-05-30 000634](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/229a89ca-bd66-4878-b1bf-b05426d01f67) Members
 
   - Female customers with no membership status gave Electronic Accessories the highest rating while those with membership status gave Sports and Travel the highest rating.
 
+![Screenshot 2024-05-30 002217](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/09cfda79-ef31-4f7f-a2f1-c96a33b6a240) Non Members
 
-
-![Screenshot 2024-05-30 002236](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/981840e1-9d5b-4d96-9997-2f557534c529)
+![Screenshot 2024-05-30 002236](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/981840e1-9d5b-4d96-9997-2f557534c529) Members
 
    - Male customers with no membership status gave Fashion and Accessories the least rating while those with membership status gave Health and Beauty, and Food and Beverages the least rating.
 
+![Screenshot 2024-05-30 000733](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/00e0aa3b-1e09-4a92-8465-70e5cd0556f7) Non Members
+
+![Screenshot 2024-05-30 000802](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/6814fdca-7adb-4819-960d-da38aad15e35) Members
+
+   - Male customers with no membership status gave Sports and Travel the highest rating while those with membership status gave no rating of 10 to any product line.
+
+![Screenshot 2024-05-30 002256](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/c8a03e45-2b1c-4a3c-a742-2fcfa384f973) Non Members
+
+![Screenshot 2024-05-30 002328](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/a5111ac5-7dd5-436e-9ab6-441c52b62419) Members
 
 
-   - Female customers with no membership status gave Sports and Travel the highest rating while those with membership status gave no rating of 10 to any product line.
-    
-7. **Based on the Payment preference of customers:**
+6. **Based on the Payment preference of customers:**
    - As seen from the analysis, the ratings for payment preferences are very inconsistent. Although, poor ratings are seen more on Cash Payment. Also both female and male customers that gave a rating of 4 was more of Credit cards, and E-wallet on both Sports and Travel and Health and Beauty.
   
 ![Screenshot 2024-05-30 133733](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/155985e2-6082-4a81-ac30-1fb164fda267) ![Screenshot 2024-05-30 133756](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/98603d83-c994-4cc0-90de-d194b646f6f5)
