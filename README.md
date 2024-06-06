@@ -1,4 +1,4 @@
-# **Sales Analysis**
+# **Supermarket Sales Analysis**
 ---
 
 ## Table of Content
@@ -49,7 +49,7 @@ The analysis results are summarized as follows:
 1. The supermarket is having challenges in identifying top-performing products, understanding customer purchasing behaviors, assessing the effectiveness of different payment methods, and optimizing its operational efficiency.
    
 
-3. The top performing products across all branches are:
+2. The top performing products across all branches are:
  
   ![Screenshot 2024-05-21 131143](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/5606629f-c3ca-41a0-8f7a-7081a96b2c50) Branch A has its highest revenue coming from Homes and Lifestyle.
    
@@ -68,10 +68,24 @@ The analysis results are summarized as follows:
 
   
 4. Based on the purchasing behaviour of customers:
-   - Female Customers with no membership status across different branches made high revenue in Electronics Accessories and Fashion Accessories.
+
+  - Female Customers with no membership status across different branches made high revenue in Electronics Accessories and Fashion Accessories.   
+
+![Screenshot 2024-05-28 110605](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/6da5da59-30d2-4021-9a19-f2d1acd36a32)
+
    - Female Customers with membership status across different branches made high revenue in Food and Beverages, Home and Lifestyle.
+
+![Screenshot 2024-05-28 110630](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/f007cf9b-b41c-4430-bf18-67eaa859ad1d)
+
    - Male Customers with no membership status across different branches made high revenue in Sports and Travel and Electronics Accessories.
+
+![Screenshot 2024-05-28 110652](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/102de773-c359-46c2-b95d-66932c0a6b1a)
+
    - Male Customers with membership status across different branches made high revenue in Health and Safety and Electronics Accessories.
+
+![Screenshot 2024-05-28 110706](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/9148f6ba-8404-4f38-9f1c-c1c8d1346527)
+
+
 9. Based on Customer Stisfaction:
    - Female customers with no membership status gave Sports and Travel the least rating while those with membership status gave Food and Beverages the least rating.
    - Female customers with no membership status gave Electronic Accessories the highest rating while those with membership status gave Sports and Travel the highest rating.
