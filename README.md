@@ -86,14 +86,22 @@ The analysis results are summarized as follows:
 ![Screenshot 2024-05-28 110706](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/9148f6ba-8404-4f38-9f1c-c1c8d1346527)
 
 
-9. Based on Customer Stisfaction:
+5. Based on Customer Stisfaction:
    - Female customers with no membership status gave Sports and Travel the least rating while those with membership status gave Food and Beverages the least rating.
    - Female customers with no membership status gave Electronic Accessories the highest rating while those with membership status gave Sports and Travel the highest rating.
    - Male customers with no membership status gave Fashion and Accessories the least rating while those with membership status gave Health and Beauty, and Food and Beverages the least rating.
    - Female customers with no membership status gave Sports and Travel the highest rating while those with membership status gave no rating of 10 to any product line.
-10. Based on the Payment preference of customers:
+    
+6. Based on the Payment preference of customers:
    - As seen from the analysis, the ratings for payment preferences are very inconsistent. Although, poor ratings are seen more on Cash Payment. Also both female and male customers that gave a rating of 4 was more of Credit cards, and E-wallet on both Sports and Travel and Health and Beauty.
-   - Both female and male customers that gave a 6 to 10 rating preferred paying with Credit Cards and E-wallet on more Product lines.
+  
+![Screenshot 2024-05-30 133733](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/155985e2-6082-4a81-ac30-1fb164fda267) ![Screenshot 2024-05-30 133756](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/98603d83-c994-4cc0-90de-d194b646f6f5)
+
+  - Both female and male customers that gave a 6 to 10 rating preferred paying with Credit Cards and E-wallet on more Product lines.
+
+![Screenshot 2024-05-30 133932](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/23e2c66d-d2ae-49e1-8220-8735a0b3cc25) ![Screenshot 2024-05-30 134006](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/520ecac7-a64f-4420-ae81-aed71c54555e)
+
+
 
 ### Recommendation
 
