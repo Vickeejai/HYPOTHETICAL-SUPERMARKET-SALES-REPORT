@@ -35,9 +35,9 @@ Exploratory Data Analysis involved exploring the sales data to answer some key q
 2. What are the top performing products across Branches A, B, and C?
 3. Relate revenue generated with sales date tremd and the gross margin percentage.
 4. What is the customer purchasing behaviour with respect to membership status and gender?
-5. Analyze the payment method preference
-6. What insights do you hope to uncover?
-7. How will these insights benefit the company?
+5. What products are the customers most and least satisfied with?
+6. Analyze the payment method preference
+7. Suggest recommendations that can improve the company in terms of revenue, customer behaviour and satisfaction.
 
 ### Results
 
@@ -62,6 +62,26 @@ The analysis results are summarized as follows:
 ### Recommendation
 
 Based on the above analysis, we recommend the following sections;
+ 1. Setting benchmarks and performance targets for each branch while reviewing its operating expenses regularly.
+ 2. Negotiate better prices or payment terms with suppliers to reduce the cost of goods sold.
+ 3. Purchase materials in bulk to take advantage of volume discounts.
+ 4. Focus on high-margin products and consider discontinuing low-margin ones.
+ 5. Have SMART detailed action plans for each strategy.
+ 6. Enhance customer service by training employees on customer service best practices like resolving issues promptly and effectively.
+ 7. Source high-quality products and conduct regular quality checks to improve product quality. 
+ 8. Maintain transparency and showcase positive customer testimonials and reviews to build brand reputation
+ 9. Have a user-friendly website or app with fast and reliable delivery service, and easy return and exchange policies.
+ 10. Adopt Digital Payment Methods as they provide valuable data that can be analyzed for insights into customer behavior, purchasing patterns, and payment preferences.
+ 11. Also we recommend conducting surveys while continuously monitoring payment trends and adapting to new technologies and customer preferences as they evolve.
+ 12. Regularly review progress against objectives and adjust strategies as needed.
+
+
+
+
+
+
+
+
 
 
 
