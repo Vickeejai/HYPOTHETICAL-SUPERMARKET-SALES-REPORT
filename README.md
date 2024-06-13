@@ -19,7 +19,7 @@ The dataset from January to March 2019 shows sales transactions across various p
 
 ### **Data Sources**
 
-Sales Data: The primary dataset used for this analysis is "C:\Users\PC\AppData\Roaming\Microsoft\Windows\Network Shortcuts\Sales Analysis for Hypothetical Supermarket.xlsx" file, containing detailed information about each sale made by the company
+Sales Data: The primary dataset used for this analysis was already imported to the excel file, containing detailed information about each sale made by the company
 
 ### **Tools**
 
