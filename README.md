@@ -1,6 +1,8 @@
 # **Sales & Product Performance Analysis on Fast Card Supermarket**
 ---
 
+![Image](https://github.com/user-attachments/assets/d5ecb699-d139-4142-bced-09675e2f4ea4)
+
 ## **Table of Content**
  - [Project Overview](#project-overview)
  - [Data Sources](#data-sources)
