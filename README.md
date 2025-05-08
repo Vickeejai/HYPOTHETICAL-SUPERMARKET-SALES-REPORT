@@ -13,7 +13,7 @@
  - [Notable Trends and Patterns](#notable-trends-and-patterns)
  - [Recommendation](#recommendation)
 
-### **Project Overview**
+### **PROJECT OVERVIEW**
 ---
 
 The dataset from January to March 2019 shows sales transactions across various product categories, store locations, and customer behaviours for Fast Card supermarket. The data analysis project seeks to review the sales and product performance of the supermarket while uncovering insights to increase profitability.
@@ -28,8 +28,8 @@ They have the data, sales numbers, inventory lists, and customer ratings, but it
 We looked at product performance, sales across different locations, which days sell best, and whether those promos are even helping.
 The goal is simple: help Fast Card know what’s working, what’s not, and where they can grow,  by uncovering trends, pinpointing top products generating the highest revenue, identifying store locations with the highest sales performance, and evaluating revenue metrics to support data-driven decisions within the business.
 
-### **Data Source**
-Sales Data: The primary dataset used for this analysis was already imported to the excel file, containing detailed information about each sale made by the company.
+### **DATA SOURCE**
+The primary dataset used for this analysis was already imported to the excel file, containing detailed information about each sale made by the company.
 
 ## **DATA CLEANING STEPS TAKEN**
 I opened the dataset in Excel and cleaned it up step by step to get it ready for proper analysis. Here's what I did:
@@ -50,10 +50,12 @@ To better understand the sales performance and customer patterns in this dataset
 
 1. Pivot Tables helped me break down the data by product category, store city, customer type, and payment method. This made it easier to spot trends in revenue, product popularity, and buying behavior.
 2. I created different Charts and Graphs (like bar charts, column charts, and pie charts) to make the data easier to read and compare. These visuals helped show how each store and product category was performing, and how customer types and payment methods affected sales.
+3. 
 These methods made it easier to analyze everything clearly and spot what was working and what needed attention.
 
 ## **EXPLORATORY DATA ANALYSIS**
 **OBJECTIVES**
+
 The goal of this analysis is to answer key business questions and provide useful insights to help Fast Card Supermarket make smarter decisions. Some of the questions explored in this report include:
 
 1. Which product categories bring in the most revenue?
