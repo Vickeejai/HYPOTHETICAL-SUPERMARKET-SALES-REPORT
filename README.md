@@ -1,4 +1,4 @@
-# **Sales Performance Analysis on Fast Card Supermarket**
+# **Sales & Product Performance Analysis on Fast Card Supermarket**
 ---
 
 ## **Table of Content**
