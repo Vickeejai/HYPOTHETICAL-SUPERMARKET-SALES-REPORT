@@ -5,125 +5,83 @@
 
 ## **Table of Content**
  - [Project Overview](#project-overview)
- - [Data Sources](#data-sources)
- - [Tools](#tools)
+ - [Introduction](#introduction)
+ - [Data Source](#data-source)
  - [Data Cleaning](#data-cleaning)
+ - [Methodologies](#methodologies)
  - [Exploratory Data Analysis](#exploratory-data-analysis)
- - [Results](#results)
+ - [Notable Trends and Patterns](#notable-trends-and-patterns)
  - [Recommendation](#recommendation)
 
 ### **Project Overview**
 ---
 
-The dataset from January to March 2019 shows sales transactions across various product categories, customer demographics, and locations for Fast Card supermarket. The data analysis project seeks to review the financial performance of the supermarket while uncovering insights to increase profitability.
+The dataset from January to March 2019 shows sales transactions across various product categories, store locations, and customer behaviours for Fast Card supermarket. The data analysis project seeks to review the sales and product performance of the supermarket while uncovering insights to increase profitability.
 
-[![Screenshot 2024-06-02 154855](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/b3ffb5f5-b278-410a-857b-9297bcab907a)](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/blob/main/ChatGPT%20Image%20Apr%2026%2C%202025%2C%2005_47_34%20PM-min.png)
+## **INTRODUCTION**
 
-### **Data Sources**
+**What if data could help Business Owners sell smarter and stock better?**
 
-Sales Data: The primary dataset used for this analysis was already imported to the excel file, containing detailed information about each sale made by the company
+Fast Card Supermarket has been growing fast. But lately, things aren’t adding up. Sales are dropping in some branches. Some products are flying off the shelves, others just sit there. They run promos, but don’t even know if they’re working.
+They have the data, sales numbers, inventory lists, and customer ratings, but it’s all over the place, and they’re not really using it. This project was created to fix that.
 
-### **Tools**
+We looked at product performance, sales across different locations, which days sell best, and whether those promos are even helping.
+The goal is simple: help Fast Card know what’s working, what’s not, and where they can grow,  by uncovering trends, pinpointing top products generating the highest revenue, identifying store locations with the highest sales performance, and evaluating revenue metrics to support data-driven decisions within the business.
 
- - Excel - Data Cleaning, Analysis, and Reporting [Download here](https://microsoft.com)
- - PowerPoint - Report Presentation
+### **Data Source**
+Sales Data: The primary dataset used for this analysis was already imported to the excel file, containing detailed information about each sale made by the company.
 
-### **Data Cleaning**
+## **DATA CLEANING STEPS TAKEN**
+I opened the dataset in Excel and cleaned it up step by step to get it ready for proper analysis. Here's what I did:
 
-In the initial data preparation stage, we performed the following tasks:
- 1. Data Inspection
-
-### **Exploratory Data Analysis**
-
-Exploratory Data Analysis involved exploring the sales data to answer some key questions such as:
-
-1. What challenges could the hypothetical company be facing?
-2. What are the top performing products across Branches A, B, and C?
-3. Relate revenue generated with sales date tremd and the gross margin percentage.
-4. What is the customer purchasing behaviour with respect to membership status and gender?
-5. What products are the customers most and least satisfied with?
-6. Analyze the payment method preference
-7. Suggest recommendations that can improve the company in terms of revenue, customer behaviour and satisfaction.
-
-### **Results**
-
-**The analysis results are summarized as follows:**
-1. The supermarket is having challenges in identifying top-performing products, understanding customer purchasing behaviors, assessing the effectiveness of different payment methods, and optimizing its operational efficiency.
-   
-
-2. **The top performing products across all branches are:**
+1. First, I checked for duplicate rows using the Remove Duplicates tool. Luckily, there were none.
+2. I made sure all dates looked the same by formatting the date column properly.
+3. All payment-related columns like Unit Price, Revenue, Tax, and Revenue Including Tax were formatted to currency so everything looked neat and was easy to compare.
+4. I removed columns that weren’t useful for this project, like Branch, Time, and I renamed some columns to make them clearer. 
+5. I checked for any blank cells using filters, and no blanks were found.
+6. I used the TRIM function on text columns to clean out any extra spaces. For number columns, I used Find and Replace to clear spaces as well.
+7. For the Rating column, which had decimals, I used the ROUND function to convert them to whole numbers. Then I created a new column called Group Rating and grouped the ratings into Poor, Average, and Good.
+8. I also cleaned and categorized Gender, Customer Type, and Rating using simple IF formulas to make analysis easier.
+9. Finally, I used the PROPER function to clean up text formatting in columns like Store City and Payment Method, so each word starts with a capital letter.
+10. After cleaning each column, I copied and pasted the results as values so everything stayed clean and organized in the final dataset
  
-  ![Screenshot 2024-05-21 131143](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/5606629f-c3ca-41a0-8f7a-7081a96b2c50) Branch A has its highest revenue coming from Homes and Lifestyle.
-   
-  ![Screenshot 2024-05-21 131214](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/e5bdb01f-d02b-40b9-95a1-3e73be023125)  Branch B has its highest revenue from Sports and Travel.
+## **METHODOLOGIES**
+To better understand the sales performance and customer patterns in this dataset, I used a few helpful Excel approaches:
 
-  ![Screenshot 2024-05-21 131243](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/d46de985-7769-4801-b58a-8f16faebf40f)  Branch C has its highest revenue from Food and Beverages.
-  
-   
-3. After analyzing the sales date trend given the revenue gotten across different time periods, the company is generating no significant revenue.
+1. Pivot Tables helped me break down the data by product category, store city, customer type, and payment method. This made it easier to spot trends in revenue, product popularity, and buying behavior.
+2. I created different Charts and Graphs (like bar charts, column charts, and pie charts) to make the data easier to read and compare. These visuals helped show how each store and product category was performing, and how customer types and payment methods affected sales.
+These methods made it easier to analyze everything clearly and spot what was working and what needed attention.
 
- ![Screenshot 2024-05-29 135907](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/2861801e-29ae-45f0-9df5-a9f8c4f0bc96)  
+## **EXPLORATORY DATA ANALYSIS**
+**OBJECTIVES**
+The goal of this analysis is to answer key business questions and provide useful insights to help Fast Card Supermarket make smarter decisions. Some of the questions explored in this report include:
 
- ![Screenshot 2024-06-06 193942](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/41eaf18d-068b-4dbb-9efc-cec0133d1f21)
+1. Which product categories bring in the most revenue?
+2. Which store branch performs best in terms of total sales?
+3. What are the top-selling products in each branch?
+4. Which customer types (Member or Normal) generate the most sales?
+5. How do payment methods impact total revenue?
+6. Which month generated the highest revenue?
+7. What’s the average rating for each product category?
+8. How do male and female customers differ in their buying patterns?
+9. Are there patterns between customer ratings and revenue?
 
-  From the Gross Margin Percentage analysis, Branch A has more revenue from Food and Beverages, Branch B has from Home and Lifestyle, and Branch C has from Sports and Travel.
+## **NOTABLE TRENDS AND PATTERNS**
+**KEY METRICS**
 
-  
-4. **Based on the purchasing behaviour of customers:**
+1. Fast Card Supermarket recorded a total revenue of $307,590 from January to March 2019.
+2. A total of 5,510 items were sold across all branches during the 3 months.
+3. The Naypyitaw store had the highest sales, bringing in $105,300 in total revenue.
+4. January was the best-performing month in terms of revenue.
+5. The Food and Beverages category led in sales, generating $53,470 in total revenue.
+6. The most revenue-generating payment method was Cash, followed by E-wallet and Credit Card.
+7. Member customers (with subscription) spent more than Normal customers, contributing to the highest revenue generated.
+8. Female customers slightly outspent Male customers in overall revenue contribution.
+9. The average customer rating across all stores was 7 out of 10, with most falling in the "Good" category.
+10. Products in the Fashion Accessories and Food and Beverages categories had some of the highest average ratings.
+11. Yangon had the lowest revenue among the three cities, with a total of $97,467.
 
-  - Female Customers with no membership status across different branches made high revenue in Electronics Accessories and Fashion Accessories.   
-
-![Screenshot 2024-05-28 110605](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/6da5da59-30d2-4021-9a19-f2d1acd36a32)
-
-   - Female Customers with membership status across different branches made high revenue in Food and Beverages, Home and Lifestyle.
-
-![Screenshot 2024-05-28 110630](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/f007cf9b-b41c-4430-bf18-67eaa859ad1d)
-
-   - Male Customers with no membership status across different branches made high revenue in Sports and Travel and Electronics Accessories.
-
-![Screenshot 2024-05-28 110652](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/102de773-c359-46c2-b95d-66932c0a6b1a)
-
-   - Male Customers with membership status across different branches made high revenue in Health and Safety and Electronics Accessories.
-
-![Screenshot 2024-05-28 110706](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/9148f6ba-8404-4f38-9f1c-c1c8d1346527)
-
-
-5. **Based on Customer Stisfaction:**
-   - Female customers with no membership status gave Sports and Travel the least rating while those with membership status gave Food and Beverages the least rating.
-  
-![Screenshot 2024-05-30 000614](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/93eedc38-7d3c-44e1-8820-817d2112519c) Non Members
-
-![Screenshot 2024-05-30 000634](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/229a89ca-bd66-4878-b1bf-b05426d01f67) Members
-
-  - Female customers with no membership status gave Electronic Accessories the highest rating while those with membership status gave Sports and Travel the highest rating.
-
-![Screenshot 2024-05-30 002217](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/09cfda79-ef31-4f7f-a2f1-c96a33b6a240) Non Members
-
-![Screenshot 2024-05-30 002236](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/981840e1-9d5b-4d96-9997-2f557534c529) Members
-
-   - Male customers with no membership status gave Fashion and Accessories the least rating while those with membership status gave Health and Beauty, and Food and Beverages the least rating.
-
-![Screenshot 2024-05-30 000733](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/00e0aa3b-1e09-4a92-8465-70e5cd0556f7) Non Members
-
-![Screenshot 2024-05-30 000802](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/6814fdca-7adb-4819-960d-da38aad15e35) Members
-
-   - Male customers with no membership status gave Sports and Travel the highest rating while those with membership status gave no rating of 10 to any product line.
-
-![Screenshot 2024-05-30 002256](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/c8a03e45-2b1c-4a3c-a742-2fcfa384f973) Non Members
-
-![Screenshot 2024-05-30 002328](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/a5111ac5-7dd5-436e-9ab6-441c52b62419) Members
-
-
-6. **Based on the Payment preference of customers:**
-   - As seen from the analysis, the ratings for payment preferences are very inconsistent. Although, poor ratings are seen more on Cash Payment. Also both female and male customers that gave a rating of 4 was more of Credit cards, and E-wallet on both Sports and Travel and Health and Beauty.
-  
-![Screenshot 2024-05-30 133733](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/155985e2-6082-4a81-ac30-1fb164fda267) ![Screenshot 2024-05-30 133756](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/98603d83-c994-4cc0-90de-d194b646f6f5)
-
-  - Both female and male customers that gave a 6 to 10 rating preferred paying with Credit Cards and E-wallet on more Product lines.
-
-![Screenshot 2024-05-30 133932](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/23e2c66d-d2ae-49e1-8220-8735a0b3cc25) ![Screenshot 2024-05-30 134006](https://github.com/Vickeejai/HYPOTHETICAL-SUPERMARKET-SALES-REPORT/assets/133552578/520ecac7-a64f-4420-ae81-aed71c54555e)
-
-### **Recommendation**
+### **RECOMMENDATION**
 
 Based on the above analysis, we recommend the following sections;
  1. Setting benchmarks and performance targets for each branch while reviewing its operating expenses regularly.
