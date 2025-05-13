@@ -32,6 +32,20 @@ The goal is simple: help Fast Card know what’s working, what’s not, and wher
 ### **DATA SOURCE**
 The primary dataset used for this analysis was already imported to the excel file, containing detailed information about each sale made by the company.
 
+**OBJECTIVES**
+
+The goal of this analysis is to answer key business questions and provide useful insights to help Fast Card Supermarket make smarter decisions. Some of the questions explored in this report include:
+
+1. Which product categories bring in the most revenue?
+2. Which store branch performs best in terms of total sales?
+3. What are the top-selling products in each branch?
+4. Which customer types (Member or Normal) generate the most sales?
+5. How do payment methods impact total revenue?
+6. Which month generated the highest revenue?
+7. What’s the average rating for each product category?
+8. How do male and female customers differ in their buying patterns?
+9. Are there patterns between customer ratings and revenue?
+
 ### **DATA CLEANING STEPS TAKEN**
 I opened the dataset in Excel and cleaned it up step by step to get it ready for proper analysis. Here's what I did:
 
@@ -55,19 +69,6 @@ To better understand the sales performance and customer patterns in this dataset
 These methods made it easier to analyze everything clearly and spot what was working and what needed attention.
 
 ### **EXPLORATORY DATA ANALYSIS**
-**OBJECTIVES**
-
-The goal of this analysis is to answer key business questions and provide useful insights to help Fast Card Supermarket make smarter decisions. Some of the questions explored in this report include:
-
-1. Which product categories bring in the most revenue?
-2. Which store branch performs best in terms of total sales?
-3. What are the top-selling products in each branch?
-4. Which customer types (Member or Normal) generate the most sales?
-5. How do payment methods impact total revenue?
-6. Which month generated the highest revenue?
-7. What’s the average rating for each product category?
-8. How do male and female customers differ in their buying patterns?
-9. Are there patterns between customer ratings and revenue?
 
 ### **NOTABLE TRENDS AND PATTERNS**
 **KEY METRICS**
