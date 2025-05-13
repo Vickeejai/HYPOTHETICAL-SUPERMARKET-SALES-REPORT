@@ -32,7 +32,7 @@ The goal is simple: help Fast Card know what’s working, what’s not, and wher
 ### **DATA SOURCE**
 The primary dataset used for this analysis was already imported to the excel file, containing detailed information about each sale made by the company.
 
-**OBJECTIVES**
+### **OBJECTIVES**
 
 The goal of this analysis is to answer key business questions and provide useful insights to help Fast Card Supermarket make smarter decisions. Some of the questions explored in this report include:
 
@@ -68,7 +68,7 @@ To better understand the sales performance and customer patterns in this dataset
 
 These methods made it easier to analyze everything clearly and spot what was working and what needed attention.
 
-### **EXPLORATORY DATA ANALYSIS**
+## **EXPLORATORY DATA ANALYSIS**
 
 ### **NOTABLE TRENDS AND PATTERNS**
 **KEY METRICS**
