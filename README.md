@@ -7,10 +7,10 @@
  - [Project Overview](#project-overview)
  - [Introduction](#introduction)
  - [Data Source](#data-source)
+ - [Objectives](#objectives)
  - [Data Cleaning](#data-cleaning)
  - [Methodologies](#methodologies)
  - [Exploratory Data Analysis](#exploratory-data-analysis)
- - [Notable Trends and Patterns](#notable-trends-and-patterns)
  - [Recommendation](#recommendation)
  - [Conclusion](#conclusion)
 
