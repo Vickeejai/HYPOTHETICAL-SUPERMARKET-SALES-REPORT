@@ -1,4 +1,4 @@
-# **Sales & Product Performance Analysis for Fast Card Supermarket**
+# **SALES AND PRODUCT PERFORMANCE ANALYSIS FOR FAST CARD SUPERMARKET**
 ---
 
 ![Image](https://github.com/user-attachments/assets/d5ecb699-d139-4142-bced-09675e2f4ea4)
@@ -14,12 +14,12 @@
  - [Recommendation](#recommendation)
  - [Conclusion](#conclusion)
 
-### **PROJECT OVERVIEW**
+## **PROJECT OVERVIEW**
 ---
 
 The dataset from January to March 2019 shows sales transactions across various product categories, store locations, and customer behaviours for Fast Card supermarket. The data analysis project seeks to review the sales and product performance of the supermarket while uncovering insights to increase profitability.
 
-### **INTRODUCTION**
+## **INTRODUCTION**
 
 **What if data could help Business Owners sell smarter and stock better?**
 
@@ -32,7 +32,7 @@ The goal is simple: help Fast Card know what’s working, what’s not, and wher
 ### **DATA SOURCE**
 The primary dataset used for this analysis was already imported to the excel file, containing detailed information about each sale made by the company.
 
-### **OBJECTIVES**
+## **OBJECTIVES**
 
 The goal of this analysis is to answer key business questions and provide useful insights to help Fast Card Supermarket make smarter decisions. Some of the questions explored in this report include:
 
@@ -46,7 +46,7 @@ The goal of this analysis is to answer key business questions and provide useful
 8. How do male and female customers differ in their buying patterns?
 9. Are there patterns between customer ratings and revenue?
 
-### **DATA CLEANING STEPS TAKEN**
+## **DATA CLEANING STEPS TAKEN**
 I opened the dataset in Excel and cleaned it up step by step to get it ready for proper analysis. Here's what I did:
 
 1. First, I checked for duplicate rows using the Remove Duplicates tool. Luckily, there were none.
@@ -60,7 +60,7 @@ I opened the dataset in Excel and cleaned it up step by step to get it ready for
 9. Finally, I used the PROPER function to clean up text formatting in columns like Store City and Payment Method, so each word starts with a capital letter.
 10. After cleaning each column, I copied and pasted the results as values so everything stayed clean and organized in the final dataset
  
-### **METHODOLOGIES**
+## **METHODOLOGIES**
 To better understand the sales performance and customer patterns in this dataset, I used a few helpful Excel approaches:
 
 1. Pivot Tables helped me break down the data by product category, store city, customer type, and payment method. This made it easier to spot trends in revenue, product popularity, and buying behavior.
@@ -85,7 +85,7 @@ These methods made it easier to analyze everything clearly and spot what was wor
 10. Products in the Fashion Accessories and Food and Beverages categories had some of the highest average ratings.
 11. Yangon had the lowest revenue among the three cities, with a total of $97,467.
 
-### **RECOMMENDATION**
+## **RECOMMENDATION**
 
 Based on the above analysis, we recommend the following sections;
 1. Sales dropped in February, most likely because there were fewer promotions or not enough customers visiting. To fix this, Fast Card should try running more promos or offering discounts around that time to keep the sales going strong.
@@ -95,7 +95,7 @@ Based on the above analysis, we recommend the following sections;
 5. Members are spending more than regular customers. That means if more people join the membership program, sales could go up. Fast Card could give normal shoppers some perks, like a free trial or a first-time discount, to convince them to sign up.
 6. Some product types, like food, drinks, and sports stuff, are bringing in the most money. Fast Card should put more energy into promoting these top-selling categories. On the other hand, items like health and beauty aren’t doing as well, so they could either try new trends in that section or reduce how much of it they keep in stock.
 
-### **CONCLUSION**
+## **CONCLUSION**
 Running a supermarket like Fast Card isn’t just about selling products, it’s about understanding customers, trends, and what keeps the business growing. Through this analysis, I explored sales patterns across time, branches, customer types, product categories, and payment methods to uncover what’s working and where there’s room to do better.
 
 For supermarket teams like Fast Card’s, this report highlights which branches are leading the way, which customer groups are most engaged, and which products are driving revenue. It also points out areas to improve, like boosting underperforming locations and encouraging more digital payments. With the right moves based on these insights, Fast Card can grow stronger, connect better with their customers, and stay ahead in a competitive retail space.
